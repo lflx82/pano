@@ -706,10 +706,7 @@ void MainWidget::paintGL()
           program.setUniformValue("texture3", id_textureJtou);
           program.setUniformValue("texture3", 3);
 
-
-
     }
-
 
      geometries->draw8(&program);
 
